@@ -1,5 +1,6 @@
 # Real-Time Stock Market Data Pipeline with Apache Kafka and AWS
 This project demonstrates the setup of a real-time data pipeline using Apache Kafka to simulate real-world and real-time data by streaming stock market data, along with AWS services such as S3, Glue Crawler, and Athena for data storage and analysis.
+![project-flow-diagram](./project-flow-diagram.png)
 
 ## Project Overview
 This project simulates a real-time stock market data stream using Kafka, where the data is streamed from a CSV file by a Kafka Producer. The Kafka Consumer listens to this data stream on a specific topic and stores it into an AWS S3 bucket. After the data is stored in S3, an AWS Glue Crawler is used to analyze the schema of the data, and AWS Athena can be used to query and analyze the data stored in S3.
