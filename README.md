@@ -27,19 +27,11 @@ This project simulates a real-time stock market data stream using Kafka, where t
 
 ## Repository Structure
 
-├── producer.py                # Kafka Producer script
-├── consumer.py                # Kafka Consumer script
-├── run-all-services.sh         # Bash script to run Kafka services
-├── start_producer.sh           # Bash script to start the Kafka producer
-├── start_consumer.sh           # Bash script to start the Kafka consumer
-├── data/                      # Folder containing sample stock market CSV files
-└── README.md                  # Project documentation (this file)
-
 ```
 .
+├── README.md				 # Project documentation (this file)
 ├── data
 │   └── indexProcessed.csv
-├── README.md				 # Project documentation (this file)
 └── scripts
     ├── kafka-consumer.ipynb		 # Script to run Kafka Consumer
     ├── kafka-producer.ipynb		 # Script to run Kafka Producer
